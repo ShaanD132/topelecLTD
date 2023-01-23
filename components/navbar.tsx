@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Navbar: React.FC = () => {
     return(
-        <div className = "navbar drop-shadow-[0_4px_4px_rgba(0,0,0,0.05)] relative z-10">
+        <div className = "navbar drop-shadow-[0_4px_4px_rgba(0,0,0,0.05)] fixed w-full z-10">
             <div className = "flex justify-between flex-row mx-20 py-5">
                 <a href = "#home"><h1 className = "text-3xl font-mb main-logo">TOPELEC LTD</h1></a>
                 <div className = "flex flex-row text-xl mt-2 font-h">

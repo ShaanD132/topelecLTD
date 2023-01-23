@@ -76,3 +76,19 @@ li {
 .main-logo:hover {
   transform: scale(1.05);
 }
+
+.arrow-down {
+  transition: all 0.3s ease;
+}
+
+.arrow-down:hover{
+  transform: scale(1.1);
+}
+
+.values {
+  min-height: 100vh;
+}
+
+.products {
+  min-height: 100vh;
+}
