@@ -20,7 +20,7 @@ export default function Home() {
         <Image width = {1000} height = {1000} alt = "industrial" src = "/assets/industrial.jpg" className = "absolute z-1 main-image w-full h-full object-cover"/>
         <MainText />
         <div className = "relative flex-grow-1 z-10 items-center flex justify-center text-center mb-4">
-          <Image width = {70} height = {70} alt = "scroll-down" src = "/assets/arrow.png" className = "arrow-down"/>
+          <Image width = {70} height = {70} alt = "scroll-down" src = "/assets/arrow-bg.png" className = "arrow-down"/>
         </div>
         <Navbar />
       </div>
