@@ -30,6 +30,28 @@
     format("truetype")
 }
 
+@font-face {
+  font-family: "Lato Regular";
+  src:
+    url("/fonts/Lato-Regular.ttf")
+    format("truetype")
+}
+
+@font-face {
+  font-family: "Lato Black";
+  src:
+    url("/fonts/Lato-Black.ttf")
+    format("truetype")
+}
+
+.font-lato {
+  font-family: "Lato Regular"
+}
+
+.font-latob {
+  font-family: "Lato Black"
+}
+
 .font-h {
   font-family: "Helvetica";
 }

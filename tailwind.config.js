@@ -18,7 +18,7 @@ module.exports = {
             '5xl': '3.052rem',
             "cu": "1.245rem",
             "name": "1.45rem",
-            "card": "1.35rem"
+            "card": "1.3rem"
         },
         extend: {
             height: {

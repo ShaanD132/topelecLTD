@@ -2,8 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from 'components/navbar'
 import MainText from '@/components/maintext'
-import Card from '@/components/card'
+import Values from "@/components/values"
 import Products from "@/components/products"
+import Services from "@/components/services"
 
 export default function Home() {
   return (
@@ -24,20 +25,11 @@ export default function Home() {
         <Navbar />
       </div>
 
-      <div className = "values flex flex-col items-center justify-center">
-        <p className = "font-hb text-5xl mt-16">Our Values</p>
-        <div className = "flex flex-row justify-between w-full px-32 mt-2" id = "values">
-          <Card id = "trend" name = "Value 1" text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. amet, consectetur adipiscing elit. " />
-          <Card id = "sprout" name = "Value 2" text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. amet, consectetur adipiscing elit."/>
-          <Card id = "industry-40" name = "Value 3" text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. amet, consectetur adipiscing elit."/>
-        </div>
-      </div>
+     <Values />
 
       <Products />
 
-      <div className = "services mt-28">
-        Services
-      </div>
+      <Services />
 
     </>
   )

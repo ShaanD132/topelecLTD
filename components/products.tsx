@@ -3,9 +3,9 @@ import Product from "./product";
 
 
 const Products: React.FC = () => (
-    <div className = "products flex flex-col items-center justify-center">
-        <p className = "font-hb text-5xl mt-20">Our Products</p>
-        <div className = "flex flex-row justify-between w-full px-32 mt-12" id = "products">
+    <div className = "products flex flex-col items-center justify-center" id = "products">
+        <p className = "font-latob text-5xl mt-20">Our Products</p>
+        <div className = "flex flex-row justify-between w-full px-32 mt-12">
             <div className = "grid gap-x-3 gap-y-28 grid-rows-2 grid-cols-3 items-center w-full auto-rows-min">
                 <Product id = "legrand" name = "Legrand" link = "https://www.legrand.com/ecatalogue/" />
                 <Product id = "osram" name = "Osram" link = "https://www.osram.com/cb/products/index.jsp" />
