@@ -18,12 +18,12 @@ module.exports = {
             '5xl': '3.052rem',
             "cu": "1.245rem",
             "name": "1.45rem",
-            "card": "1.3rem"
+            "card": "1.05rem"
         },
         extend: {
             height: {
                 "skills": "90vh",
-                "card1": "600px",
+                "card1": "420px",
                 "card2": "380px",
                 "card3": "300px"
             },

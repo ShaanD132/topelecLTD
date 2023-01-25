@@ -106,15 +106,3 @@ li {
 .arrow-down:hover{
   transform: scale(1.1);
 }
-
-.values {
-  min-height: 100vh;
-}
-
-.products {
-  min-height: 100vh;
-}
-
-.services {
-  min-height: 100vh;
-}

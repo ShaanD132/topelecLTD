@@ -10,7 +10,7 @@ interface Props {
 
 const Product: React.FC<Props> = ({id, name, link}) => (
     <div className = "flex flex-row items-center justify-center">
-        <a href = {link} target = "_blank" rel="noopener noreferrer"><Image src = {`/assets/logos/${id}.png`} width = {250} height = {250} alt = {name} /></a>
+        <a href = {link} target = "_blank" rel="noopener noreferrer"><Image src = {`/assets/logos/${id}.png`} width = {175} height = {175} alt = {name} /></a>
     </div>
 )
 
