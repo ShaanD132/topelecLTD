@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Topelec</title>
+        <title>Topelec LTD</title>
         <meta name="description" content="Topelec LTD - Mauritius" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
