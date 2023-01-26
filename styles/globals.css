@@ -114,11 +114,3 @@ li {
 .product:hover {
   transform: scale(1.1)
 }
-
-.service {
-  transition: all 0.3s ease;
-}
-
-.service:hover {
-  transform: scale(1.05)
-}

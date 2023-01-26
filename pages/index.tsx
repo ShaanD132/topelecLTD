@@ -25,12 +25,12 @@ export default function Home() {
         <Navbar />
       </div>
 
-     <Values />
 
       <Products />
 
       <Services />
 
+      <Values />
     </>
   )
 }
