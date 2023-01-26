@@ -7,7 +7,7 @@ interface Props {
 }
 
 const Service: React.FC<Props> = ({id, text}) => (
-    <div className = "px-10 product">
+    <div className = "px-10 service">
         <Image width = {350} height = {350} alt = {text} src = {`/assets/services/${id}.png`} className = "overflow-hidden rounded-lg" />
     </div>
 )
