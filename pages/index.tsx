@@ -26,9 +26,9 @@ export default function Home() {
       </div>
 
 
-      <Products />
-
       <Services />
+
+      <Products />
 
       <Values />
     </>
