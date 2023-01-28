@@ -7,9 +7,17 @@ interface Props {
 }
 
 const Service: React.FC<Props> = ({id, text}) => (
-    <div className = "px-10 flex flex-row items-center justify-center">
+    <div className = "flex flex-row items-center justify-center">
         <Image width = {350} height = {350} alt = {text} src = {`/assets/services/${id}.png`} className = "overflow-hidden rounded-lg" />
     </div>
 )
 
 export default Service
+
+{/* 
+- All Headings
+- Services x Gap
+- Navbar in general
+- Company Values
+
+*/}
