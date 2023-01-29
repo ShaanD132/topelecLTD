@@ -81,7 +81,6 @@ body {
 .main {
   height: 100vh;
   overflow-y: hidden;
-  background-color: black;
 }
 
 li {
