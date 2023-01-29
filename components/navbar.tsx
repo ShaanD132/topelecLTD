@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Navbar: React.FC = () => {
     return(
-        <div className = "navbar drop-shadow-[0_4px_4px_rgba(0,0,0,0.05)] fixed w-full z-10">
+        <div className = "navbar drop-shadow-[0_4px_4px_rgba(0,0,0,0.05)] fixed w-full z-20">
             <div className = "flex justify-between flex-row mx-8 md:mx-20 py-5">
                 <Link to = "home" spy = {true} smooth = {true} offset = {0} duration = {1000} className = "cursor-pointer">
                     <div className = "flex flex-row items-center justify-center main-logo">
