@@ -5,6 +5,7 @@ import Product from "./product";
 const Products: React.FC = () => (
     <div className = "flex flex-col items-center justify-center" id = "products">
         <p className = "font-latob text-2xl md:text-4xl mt-12 md:mt-28">Products</p>
+        <hr className = "border-t-2 border-main-yellow w-12 mt-1"/>
         <div className = "flex flex-row justify-between px-16 md:px-32 mt-6 md:mt-8 w-full">
             <div className = "grid gap-x-12 md:gap-x-16 gap-y-12 grid-cols-2 md:grid-cols-3 items-center w-full auto-rows-min">
                 <Product id = "legrand" name = "Legrand" link = "https://www.legrand.com/ecatalogue/" />

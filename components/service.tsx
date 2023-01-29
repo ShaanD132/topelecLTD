@@ -8,7 +8,7 @@ interface Props {
 
 const Service: React.FC<Props> = ({id, text}) => (
     <div className = "flex flex-row items-center justify-center">
-        <Image width = {350} height = {350} alt = {text} src = {`/assets/services/${id}.png`} className = "overflow-hidden rounded-lg" />
+        <Image width = {350} height = {350} alt = {text} src = {`/assets/services/${id}.png`} className = "overflow-hidden rounded-md" />
     </div>
 )
 

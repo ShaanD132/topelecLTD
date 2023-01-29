@@ -16,12 +16,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className = "main flex flex-col">
+      <div className = "main flex flex-col" id = "home">
         <Image width = {1000} height = {1000} alt = "industrial" src = "/assets/industrial.jpg" className = "absolute z-1 main-image w-full h-full object-cover"/>
         <MainText />
-        <div className = "relative flex-grow-1 z-10 items-center flex justify-center text-center mb-4">
+        {/* <div className = "relative flex-grow-1 z-10 items-center flex justify-center text-center mb-4">
           <Image width = {70} height = {70} alt = "scroll-down" src = "/assets/arrow-bg.png" className = "arrow-down"/>
-        </div>
+        </div>*/}
         <Navbar />
       </div>
 
