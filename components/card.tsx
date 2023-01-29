@@ -14,9 +14,9 @@ const Card: React.FC<Props> = ({id, name, text}) => (
             <Image width = {110} height = {110} alt = {name} src = {`/assets/${id}.png`} className = "mt-10 lg:mt-20 text-center"/>
         </div>
 
-        <div className = "mx-10 md:mt-5 lg:mt-12 text-center">
-            <p className = "font-hb sm:text-lg md:text-xl lg:text-2xl">{name}</p>
-            <p className = "font-lato sm:text-md md:text-md lg:text-card mt-2 mb-10">{text}</p>
+        <div className = "mx-10 mt-5 lg:mt-12 text-center">
+            <p className = "font-hb text-xl md:text-2xl">{name}</p>
+            <p className = "font-lato text-lg md:text-xl lg:text-lg mt-2 mb-10">{text}</p>
         </div>
     </div>
 )

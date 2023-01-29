@@ -17,8 +17,7 @@ module.exports = {
             '4xl': '2.441rem',
             '5xl': '3.052rem',
             "cu": "1.245rem",
-            "name": "1.45rem",
-            "card": "1.05rem"
+            "name": "1.45rem"
         },
         extend: {
             height: {
@@ -30,7 +29,7 @@ module.exports = {
             colors: {
                 "red": "#DE1A1A",
                 "alt-black": "#0A0A0A",
-                "main-yellow": "#F1C40F",
+                "main-yellow": "#fabc37",
                 "blu": "#247BA0"
             },
         }

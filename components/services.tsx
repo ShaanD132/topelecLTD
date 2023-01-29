@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Service from "./service";
 
 const Services: React.FC = () => (
