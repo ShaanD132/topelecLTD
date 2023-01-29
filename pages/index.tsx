@@ -17,8 +17,7 @@ export default function Home() {
       </Head>
 
       <div className = "main flex flex-col bg-white md:bg-black" id = "home">
-        <Image width = {1000} height = {1000} alt = "industrial" src = "/assets/industrial.jpg" className = "absolute z-1 main-image h-full xl:h-max w-full object-cover hidden md:block"/>
-        <Image width = {1000} height = {1000} alt = "industrial" src = "/assets/industrial-dark.png" className = "absolute z-1 h-full xl:h-max w-full object-cover block md:hidden"/>
+        <Image width = {1000} height = {1000} alt = "industrial" src = "/assets/industrial.jpg" className = "absolute z-1 main-image h-full w-full object-cover"/>
         <MainText />
         {/* <div className = "relative flex-grow-1 z-10 items-center flex justify-center text-center mb-4">
           <Image width = {70} height = {70} alt = "scroll-down" src = "/assets/arrow-bg.png" className = "arrow-down"/>
