@@ -5,8 +5,8 @@ const MainText: React.FC = () => {
         <div className = "relative z-10 flex-1 flex items-left justify-center flex-col px-20" >
             <div>
                 <h1 className = "text-3xl md:text-5xl lg:text-5xl line font-hb">QUALITY <br/> MADE <span className = "text-main-yellow">AFFORDABLE</span></h1>
-                <div className = "text-lg md:text-2xl lg:text-2xl mt-2 font-o w-1/2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet ipsum consequat, eleifend est eget, rhoncus velit.</p>
+                <div className = "text-lg md:text-2xl lg:text-2xl mt-2 font-o md:w-2/3">
+                    <p><span className = "font-ob">Trusted by leaders</span> in the Construction and Hotel Industry, such as LUX and Baobab, <span className = "font-ob">Topelec guarantees </span> high quality work.</p>
                 </div>
             </div>
         </div>

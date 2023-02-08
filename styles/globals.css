@@ -31,6 +31,13 @@
 }
 
 @font-face {
+  font-family: "Outfit Bold";
+  src:
+    url("/fonts/Outfit-SemiBold.ttf")
+    format("truetype")
+}
+
+@font-face {
   font-family: "Lato Regular";
   src:
     url("/fonts/Lato-Regular.ttf")
@@ -58,6 +65,10 @@
 
 .font-o {
   font-family: "Outfit";
+}
+
+.font-ob {
+  font-family: "Outfit Bold";
 }
 
 .font-hb {
