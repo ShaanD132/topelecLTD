@@ -16,7 +16,7 @@ const Card: React.FC<Props> = ({id, name, text}) => (
 
         <div className = "mx-10 mt-5 lg:mt-12 text-center">
             <p className = "font-hb text-xl md:text-2xl">{name}</p>
-            <p className = "font-lato text-lg md:text-xl lg:text-lg mt-2 mb-10">{text}</p>
+            <p className = "font-letters text-lg md:text-xl lg:text-lg mt-2 mb-10">{text}</p>
         </div>
     </div>
 )

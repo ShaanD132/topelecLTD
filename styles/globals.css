@@ -10,16 +10,16 @@
 }
 
 @font-face {
-  font-family: "Helvetica Bold";
+  font-family: "Monserrat Bold";
   src:
-    url("/fonts/Helvetica-Bold.ttf")
+    url("/fonts/Montserrat-Bold.ttf")
     format("truetype")
 }
 
 @font-face {
-  font-family: "Monserrat Bold";
+  font-family: "Helvetica Bold";
   src:
-    url("/fonts/Montserrat-Bold.ttf")
+    url("/fonts/Helvetica-Bold.ttf")
     format("truetype")
 }
 
@@ -58,8 +58,26 @@
     format("truetype")
 }
 
+@font-face {
+  font-family: "Lato Black";
+  src:
+    url("/fonts/Lato-Black.ttf")
+    format("truetype")
+}
+
+@font-face {
+  font-family: "Letters";
+  src:
+    url("/fonts/HedvigLettersSans-Regular.otf")
+    format("opentype")
+}
+
 .font-at {
   font-family: "altertype"
+}
+
+.font-letters {
+  font-family: "Letters"
 }
 
 .font-lato {
@@ -89,6 +107,8 @@
 .font-mb {
   font-family: "Monserrat Bold";
 }
+
+
 
 body {
   max-width: 100vw;
