@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Navbar from 'components/navbar'
+import HomeNavbar from '@/components/home-navbar'
 import MainText from '@/components/maintext'
 import Products from "@/components/products"
 import Services from "@/components/services"
@@ -28,7 +28,7 @@ export default function Home() {
         {/* <div className = "relative flex-grow-1 z-10 items-center flex justify-center text-center mb-4">
           <Image width = {70} height = {70} alt = "scroll-down" src = "/assets/arrow-bg.png" className = "arrow-down"/>
         </div>*/}
-        <Navbar />
+        <HomeNavbar />
       </div>
 
 
