@@ -2,21 +2,21 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from 'components/navbar'
 import MainText from '@/components/maintext'
-import Values from "@/components/values"
 import Products from "@/components/products"
 import Services from "@/components/services"
 import Socials from "@/components/socials"
 import Footer from "@/components/footer"
+import MainProjects from '@/components/mainproj'
 
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Topelec LTD1</title>
+        <title>Topelec LTD</title>
         <meta name="description" content="Topelec LTD - Mauritius" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./favicon.ico" />
       </Head>
 
       <Socials />
@@ -36,7 +36,7 @@ export default function Home() {
 
       <Products />
 
-      <Values />
+      <MainProjects />
 
       <Footer />
     </>

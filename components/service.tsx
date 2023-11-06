@@ -1,23 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
+import ServicePopup from "./service-popup";
 
 interface Props {
     id: string,
-    text: string
+    text: string,
+    description: string
 }
 
-const Service: React.FC<Props> = ({id, text}) => (
-    <div className = "flex flex-row items-center justify-center">
-        <Image width = {350} height = {350} alt = {text} src = {`/assets/services/${id}.png`} className = "overflow-hidden rounded-md" />
-    </div>
-)
+const Service: React.FC<Props> = ({id, text, description}) => {
+    return(
+        <div>
+            <div className = "flex flex-row items-center justify-center service">
+                <Image width = {350} height = {350} alt = {text} src = {`/assets/services/${id}.png`} className = "overflow-hidden rounded-lg"  />
+            </div>
+        </div>
+    )
+}
 
 export default Service
 
-{/* 
-- All Headings
-- Services x Gap
-- Navbar in general
-- Company Values
-
+{/*
+<button  onClick={() => setIsVisible(!isVisible)}>
+                    <Image width = {350} height = {350} alt = {text} src = {`/assets/services/${id}.png`} className = "overflow-hidden rounded-lg"  />
+                </button>
+            </div>
+            {isVisible && <ServicePopup description={description}/>}
 */}

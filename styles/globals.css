@@ -31,6 +31,13 @@
 }
 
 @font-face {
+  font-family: "altertype";
+  src:
+    url("/fonts/altertype.otf")
+    format("opentype")
+}
+
+@font-face {
   font-family: "Outfit Bold";
   src:
     url("/fonts/Outfit-SemiBold.ttf")
@@ -49,6 +56,10 @@
   src:
     url("/fonts/Lato-Black.ttf")
     format("truetype")
+}
+
+.font-at {
+  font-family: "altertype"
 }
 
 .font-lato {
