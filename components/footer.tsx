@@ -13,7 +13,7 @@ const Footer: React.FC = () => (
                 </div>
                 <div className = "mt-10">
                     <hr/>
-                    <Link target="_blank" href="https://shaanduss.vercel.app"><h1 className = " my-3 text-md text-center font-at">developed by shaan dussoye</h1></Link>
+                    <h1 className = " my-2 text-md text-center font-at">developed by <Link target="_blank" href="https://shaanduss.vercel.app" className = "hover:underline">shaan dussoye</Link></h1>
                 </div>
             </div>
     </div>
