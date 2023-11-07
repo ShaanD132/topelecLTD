@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Navbar from '@/components/navbar'
-import ContactForm from '@/components/contact-form'
+import ProjectPage from '@/components/project-page'
 import Footer from '@/components/footer'
-export default function Contact() {
+export default function Projects() {
   return (
     <>
       <Head>
@@ -14,7 +14,7 @@ export default function Contact() {
 
       <Navbar/>
 
-      <ContactForm />
+      <ProjectPage />
 
       <Footer/>
     </>
